@@ -20,7 +20,7 @@ interface ModelTreeProps {
   onReset: () => void;
 }
 
-const addTypes: ShapeType[] = ["box", "cylinder", "sphere", "cone", "torus"];
+const addTypes: ShapeType[] = ["box", "cylinder", "sphere", "cone", "torus", "vase"];
 
 export function ModelTree(props: ModelTreeProps) {
   const references = props.project.shapes.filter((shape) => shape.role === "reference");

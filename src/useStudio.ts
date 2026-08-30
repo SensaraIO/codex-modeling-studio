@@ -115,7 +115,7 @@ export function useStudio() {
     setFuture([]);
     setProject(cloneProject(starterProject));
     setSelectedId(starterProject.shapes[0]?.id ?? null);
-    addActivity({ source: "You", title: "Loaded sample model", detail: "Restored the desktop cradle example." });
+    addActivity({ source: "You", title: "Loaded sample model", detail: "Restored the minimal modern vase." });
   }, [addActivity, setProject]);
 
   const addFeedback = useCallback((entry: Omit<ToolFeedback, "id" | "timestamp">) => {

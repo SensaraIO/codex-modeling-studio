@@ -71,7 +71,7 @@ const editSchema = {
             type: "object",
             description: "Shape definition when kind is add.",
             properties: {
-              type: { type: "string", enum: ["box", "cylinder", "sphere", "cone", "torus", "mac-mini"] },
+              type: { type: "string", enum: ["box", "cylinder", "sphere", "cone", "torus", "vase", "mac-mini"] },
               role: { type: "string", enum: ["solid", "reference"], default: "solid" },
               name: { type: "string" },
               operation: { type: "string", enum: ["add", "cut"] },

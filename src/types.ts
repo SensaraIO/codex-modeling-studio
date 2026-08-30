@@ -1,6 +1,6 @@
 export type Vec3 = [number, number, number];
 
-export type ShapeType = "box" | "cylinder" | "sphere" | "cone" | "torus" | "mac-mini";
+export type ShapeType = "box" | "cylinder" | "sphere" | "cone" | "torus" | "vase" | "mac-mini";
 export type ShapeOperation = "add" | "cut";
 export type ShapeRole = "solid" | "reference";
 

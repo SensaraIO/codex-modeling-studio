@@ -13,12 +13,12 @@ describe("model edits", () => {
   it("applies a batch without mutating the previous project", () => {
     const original = cloneProject(starterProject);
     const next = applyEditActions(original, [
-      { kind: "update", id: "base", patch: { position: [4, 0, 4] } },
+      { kind: "update", id: "vase-body", patch: { position: [4, 0, 0] } },
       { kind: "set-appearance", color: "#abcdef", roughness: 0.7 },
     ]);
 
-    expect(original.shapes.find((shape) => shape.id === "base")?.position).toEqual([0, 0, 4]);
-    expect(next.shapes.find((shape) => shape.id === "base")?.position).toEqual([4, 0, 4]);
+    expect(original.shapes.find((shape) => shape.id === "vase-body")?.position).toEqual([0, 0, 0]);
+    expect(next.shapes.find((shape) => shape.id === "vase-body")?.position).toEqual([4, 0, 0]);
     expect(next.color).toBe("#abcdef");
     expect(next.roughness).toBe(0.7);
   });
@@ -61,6 +61,14 @@ describe("print geometry", () => {
     expect(report.checks.find((check) => check.id === "bed-contact")?.level).toBe("pass");
   });
 
+  it("builds the vase as a hollow printable shell", () => {
+    const report = validateProject(starterProject);
+    expect(starterProject.shapes[0].type).toBe("vase");
+    expect(report.dimensions[0]).toBeGreaterThan(95);
+    expect(report.dimensions[2]).toBeCloseTo(150);
+    expect(report.boundaryEdges).toBe(0);
+  });
+
   it("blocks a model that has no additive solid", () => {
     const project = cloneProject(starterProject);
     project.shapes = [makeShape("sphere", { operation: "cut" })];
@@ -71,7 +79,7 @@ describe("print geometry", () => {
 
   it("emits a non-empty binary STL artifact", async () => {
     const result = createStlBlob(starterProject);
-    expect(result?.filename).toBe("desktop-cradle.stl");
+    expect(result?.filename).toBe("minimal-modern-vase.stl");
     expect(result?.blob.type).toBe("model/stl");
     expect(result?.blob.size).toBeGreaterThan(84);
 

@@ -41,6 +41,7 @@ export function makeShape(type: ShapeType, patch: Partial<ModelShape> = {}): Mod
     sphere: "Sphere",
     cone: "Cone",
     torus: "Torus",
+    vase: "Vase",
     "mac-mini": "Mac mini reference",
   };
 
@@ -60,40 +61,26 @@ export function makeShape(type: ShapeType, patch: Partial<ModelShape> = {}): Mod
 }
 
 export const starterProject: ModelProject = {
-  id: "desktop-cradle",
-  name: "Desktop cradle",
+  id: "minimal-modern-vase",
+  name: "Minimal modern vase",
   unit: "mm",
-  color: "#b7c9ff",
-  roughness: 0.42,
-  metalness: 0.08,
+  color: "#eee9df",
+  roughness: 0.78,
+  metalness: 0,
   buildVolume: [256, 256, 256],
   updatedAt: now(),
   shapes: [
-    makeShape("box", {
-      id: "base",
-      name: "Low profile base",
-      position: [0, 0, 4],
-      dimensions: { ...DEFAULT_DIMENSIONS, width: 96, height: 8, depth: 70 },
-    }),
-    makeShape("box", {
-      id: "back-rest",
-      name: "Angled back rest",
-      position: [0, 25, 49],
-      rotation: [12, 0, 0],
-      dimensions: { ...DEFAULT_DIMENSIONS, width: 86, height: 92, depth: 8 },
-    }),
-    makeShape("box", {
-      id: "front-lip",
-      name: "Front retaining lip",
-      position: [0, -27, 12],
-      dimensions: { ...DEFAULT_DIMENSIONS, width: 96, height: 20, depth: 9 },
-    }),
-    makeShape("cylinder", {
-      id: "cable-pass",
-      name: "Cable pass-through",
-      operation: "cut",
-      position: [0, -27, 5],
-      dimensions: { ...DEFAULT_DIMENSIONS, radius: 7, height: 14 },
+    makeShape("vase", {
+      id: "vase-body",
+      name: "Bone ceramic vase",
+      position: [0, 0, 0],
+      dimensions: {
+        ...DEFAULT_DIMENSIONS,
+        height: 150,
+        radius: 50,
+        radiusTop: 17,
+        tube: 4,
+      },
     }),
   ],
 };
@@ -202,9 +189,95 @@ export function createPrimitiveGeometry(shape: ModelShape): THREE.BufferGeometry
       return new THREE.CylinderGeometry(d.radiusTop, d.radiusBottom, d.height, 64, 1, false).rotateX(Math.PI / 2);
     case "torus":
       return new THREE.TorusGeometry(d.radius, d.tube, 24, 64);
+    case "vase": {
+      const height = d.height;
+      const bellyRadius = d.radius;
+      const neckRadius = Math.min(d.radiusTop, bellyRadius * 0.72);
+      const wall = Math.min(d.tube, neckRadius * 0.72, bellyRadius * 0.22);
+      const baseThickness = Math.min(Math.max(wall * 1.35, height * 0.028), height * 0.12);
+      const bodyCurve = new THREE.CubicBezierCurve(
+        new THREE.Vector2(bellyRadius * 0.7, 0),
+        new THREE.Vector2(bellyRadius * 0.74, height * 0.04),
+        new THREE.Vector2(bellyRadius, height * 0.3),
+        new THREE.Vector2(bellyRadius, height * 0.56),
+      );
+      const shoulderCurve = new THREE.CubicBezierCurve(
+        new THREE.Vector2(bellyRadius, height * 0.56),
+        new THREE.Vector2(bellyRadius, height * 0.72),
+        new THREE.Vector2(neckRadius, height * 0.82),
+        new THREE.Vector2(neckRadius, height * 0.9),
+      );
+      const neckCurve = new THREE.CubicBezierCurve(
+        new THREE.Vector2(neckRadius, height * 0.9),
+        new THREE.Vector2(neckRadius, height * 0.93),
+        new THREE.Vector2(neckRadius, height * 0.98),
+        new THREE.Vector2(neckRadius, height),
+      );
+      const outer = [
+        ...bodyCurve.getPoints(24),
+        ...shoulderCurve.getPoints(18).slice(1),
+        ...neckCurve.getPoints(8).slice(1),
+      ];
+      const inner = outer
+        .filter((point) => point.y >= baseThickness)
+        .reverse()
+        .map((point) => new THREE.Vector2(Math.max(0.8, point.x - wall), point.y));
+      const profile = [
+        new THREE.Vector2(0, 0),
+        new THREE.Vector2(outer[0].x, 0),
+        ...outer.slice(1),
+        ...inner,
+        new THREE.Vector2(0, baseThickness),
+      ];
+      return createRevolvedGeometry(profile, 96);
+    }
     case "mac-mini":
       return new RoundedBoxGeometry(d.width, d.depth, d.height, 5, Math.min(9, d.height * 0.18));
   }
+}
+
+function createRevolvedGeometry(profile: THREE.Vector2[], segments: number) {
+  const positions: number[] = [];
+  const indices: number[] = [];
+  const rings = profile.map((point) => {
+    if (point.x <= 0.0001) {
+      const index = positions.length / 3;
+      positions.push(0, 0, point.y);
+      return [index];
+    }
+
+    const ring: number[] = [];
+    for (let segment = 0; segment < segments; segment += 1) {
+      const angle = segment / segments * Math.PI * 2;
+      ring.push(positions.length / 3);
+      positions.push(point.x * Math.cos(angle), point.x * Math.sin(angle), point.y);
+    }
+    return ring;
+  });
+
+  for (let profileIndex = 0; profileIndex < rings.length - 1; profileIndex += 1) {
+    const current = rings[profileIndex];
+    const next = rings[profileIndex + 1];
+    for (let segment = 0; segment < segments; segment += 1) {
+      const following = (segment + 1) % segments;
+      if (current.length === 1) {
+        indices.push(current[0], next[following], next[segment]);
+      } else if (next.length === 1) {
+        indices.push(current[segment], current[following], next[0]);
+      } else {
+        indices.push(
+          current[segment], current[following], next[segment],
+          current[following], next[following], next[segment],
+        );
+      }
+    }
+  }
+
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute("position", new THREE.Float32BufferAttribute(positions, 3));
+  geometry.setIndex(indices);
+  geometry.computeVertexNormals();
+  return geometry;
 }
 
 export function createReferenceObject(shape: ModelShape) {
@@ -334,6 +407,7 @@ function countBoundaryEdges(geometry: THREE.BufferGeometry) {
   const addEdge = (a: number, b: number) => {
     const ka = vertexKey(a);
     const kb = vertexKey(b);
+    if (ka === kb) return;
     const key = ka < kb ? `${ka}|${kb}` : `${kb}|${ka}`;
     edgeCounts.set(key, (edgeCounts.get(key) ?? 0) + 1);
   };
@@ -365,7 +439,7 @@ export function validateProject(project: ModelProject): ModelReport {
     label: "Solid base",
     level: additive.length ? "pass" : "error",
     detail: additive.length
-      ? `${additive.length} additive ${additive.length === 1 ? "shape" : "shapes"} define the body.`
+      ? `${additive.length} additive ${additive.length === 1 ? "shape defines" : "shapes define"} the body.`
       : "Add at least one solid before using cut shapes.",
   });
 
@@ -416,7 +490,7 @@ export function validateProject(project: ModelProject): ModelReport {
     id: "boolean-result",
     label: "Boolean result",
     level: "pass",
-    detail: `Generated ${triangleCount.toLocaleString()} triangles from ${active.length} active shapes.`,
+    detail: `Generated ${triangleCount.toLocaleString()} triangles from ${active.length} active ${active.length === 1 ? "shape" : "shapes"}.`,
   });
   checks.push({
     id: "build-volume",

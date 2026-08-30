@@ -73,6 +73,7 @@ const dimensionFields: Record<ModelShape["type"], Array<[keyof ShapeDimensions, 
   sphere: [["radius", "Radius"]],
   cone: [["radiusBottom", "Base"], ["radiusTop", "Top"], ["height", "Height"]],
   torus: [["radius", "Radius"], ["tube", "Tube"]],
+  vase: [["radius", "Belly"], ["radiusTop", "Neck"], ["height", "Height"], ["tube", "Wall"]],
   "mac-mini": [["width", "Width"], ["depth", "Depth"], ["height", "Height"]],
 };
 
