@@ -55,7 +55,7 @@ The initial project is a hollow, parametric ceramic vase. Select it to edit the 
 1. Clone the repository and run the setup commands above.
 2. Open the cloned folder as a project in Codex.
 3. Ask the agent to read `AGENTS.md` before changing a design. Codex reads this root file automatically when a new task starts.
-4. Start `npm run dev` and open the printed URL in the Codex in-app browser.
+4. Start `npm run dev` and open the printed URL using the approved browser and profile specified in [AGENTS.md](AGENTS.md) and operator preferences.
 5. Wait for the status card to read **Agent tools live**. This confirms that the page's WebMCP tools are registered.
 
 The root `AGENTS.md` contains a hard project rule: every new or changed design must be rendered and visually inspected in this viewer before an agent can call it complete. A build, test run, geometry calculation, or STL export does not replace the render.
