@@ -1,0 +1,118 @@
+[
+  {
+    "part": "fit-coupon-first",
+    "quantity": 1,
+    "grams_each": 41.61,
+    "estimated_time_each": "1h 44m 48s",
+    "layers": 70,
+    "extrusion_path_bounds_mm": [
+      [
+        84.815,
+        97.815,
+        0.2
+      ],
+      [
+        227.185,
+        217.185,
+        14.0
+      ]
+    ],
+    "first_layer_with_brim_bbox_mm": [
+      84.58688000000001,
+      97.58687,
+      227.41312000000002,
+      217.41312000000002
+    ],
+    "file": "fit-coupon-first-h2s-abs-gf.3mf",
+    "slicer_messages": [
+      "[2026-09-28 06:17:45.898725] [0x00000001faf7e180] [error]   Invalid T command (T65535)."
+    ]
+  },
+  {
+    "part": "side-frame",
+    "quantity": 2,
+    "grams_each": 237.51,
+    "estimated_time_each": "8h 21m 52s",
+    "layers": 60,
+    "extrusion_path_bounds_mm": [
+      [
+        3.815,
+        48.815,
+        0.2
+      ],
+      [
+        336.185,
+        271.185,
+        12.0
+      ]
+    ],
+    "first_layer_with_brim_bbox_mm": [
+      3.5868800000000003,
+      48.586870000000005,
+      336.41312000000005,
+      271.41311
+    ],
+    "file": "side-frame-h2s-abs-gf.3mf",
+    "slicer_messages": [
+      "[2026-09-28 06:17:48.960662] [0x00000001faf7e180] [error]   Invalid T command (T65535)."
+    ]
+  },
+  {
+    "part": "shelf-tray",
+    "quantity": 4,
+    "grams_each": 235.72,
+    "estimated_time_each": "8h 15m 33s",
+    "layers": 70,
+    "extrusion_path_bounds_mm": [
+      [
+        42.815,
+        69.815,
+        0.2
+      ],
+      [
+        297.185,
+        250.185,
+        14.0
+      ]
+    ],
+    "first_layer_with_brim_bbox_mm": [
+      42.58688,
+      69.58687,
+      297.41312000000005,
+      250.41311000000002
+    ],
+    "file": "shelf-tray-h2s-abs-gf.3mf",
+    "slicer_messages": [
+      "[2026-09-28 06:17:52.083537] [0x00000001faf7e180] [error]   Invalid T command (T65535)."
+    ]
+  },
+  {
+    "part": "locking-keys-print-16",
+    "quantity": 1,
+    "grams_each": 16.23,
+    "estimated_time_each": "56m 16s",
+    "layers": 40,
+    "extrusion_path_bounds_mm": [
+      [
+        95.815,
+        120.29,
+        0.2
+      ],
+      [
+        246.185,
+        197.71,
+        8.0
+      ]
+    ],
+    "first_layer_with_brim_bbox_mm": [
+      95.58688000000001,
+      120.06187000000001,
+      246.41311000000002,
+      197.93811000000002
+    ],
+    "file": "locking-keys-print-16-h2s-abs-gf.3mf",
+    "slicer_messages": [
+      "[2026-09-28 06:17:54.125104] [0x00000001faf7e180] [error]   Invalid T command (T65535)."
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "dual-120-fan-carrier": {
+    "dimensions_mm": [
+      304.0,
+      188.0,
+      22.0
+    ],
+    "bounds_mm": [
+      [
+        18.0,
+        66.0,
+        0.0
+      ],
+      [
+        322.0,
+        254.0,
+        22.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 205.354,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 4310
+  },
+  "cable-guide": {
+    "dimensions_mm": [
+      20.0,
+      48.0,
+      22.0
+    ],
+    "bounds_mm": [
+      [
+        160.0,
+        136.0,
+        0.0
+      ],
+      [
+        180.0,
+        184.0,
+        22.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 7.088,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 88
+  },
+  "accessory_to_rack_intersections": [],
+  "assembled_with_fans_dimensions_mm": [
+    289,
+    208,
+    350.5
+  ],
+  "physical_validation": "Fit, load, creep, and thermal tests pending"
+}

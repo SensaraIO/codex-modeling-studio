@@ -1,0 +1,39 @@
+{
+  "viewer": "http://127.0.0.1:4186/rack.html",
+  "inspected_views": {
+    "assembly": [
+      "isometric",
+      "front",
+      "right",
+      "top"
+    ],
+    "bare-rack": [
+      "isometric"
+    ],
+    "exploded": [
+      "isometric"
+    ],
+    "side-frame": [
+      "isometric",
+      "top"
+    ],
+    "shelf-tray": [
+      "isometric",
+      "top"
+    ],
+    "locking-key": [
+      "isometric",
+      "top"
+    ],
+    "key-plate": [
+      "isometric",
+      "top"
+    ],
+    "fit-coupon": [
+      "isometric",
+      "top"
+    ]
+  },
+  "validator_download": false,
+  "notes": "Rendered and inspected actual mesh geometry, not illustrative imagery. Physical tests pending."
+}

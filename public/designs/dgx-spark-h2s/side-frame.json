@@ -1,0 +1,610 @@
+{
+  "id": "dgx-spark-h2s-four",
+  "name": "H2S / side-frame / print orientation",
+  "unit": "mm",
+  "color": "#303e46",
+  "roughness": 0.82,
+  "metalness": 0.12,
+  "buildVolume": [
+    340.0,
+    320.0,
+    340.0
+  ],
+  "shapes": [
+    {
+      "name": "Full-depth foot",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        18.0,
+        160.0,
+        6.0
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 208.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-000"
+    },
+    {
+      "name": "Continuous upright",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        170.0,
+        96.0,
+        6.00000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 36,
+        "height": 318.0,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-001"
+    },
+    {
+      "name": "Continuous upright",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        170.0,
+        224.0,
+        6.00000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 36,
+        "height": 318.0,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-002"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        107.0,
+        160.0,
+        6.000000000000006
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-003"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        199.0,
+        160.0,
+        6.0000000000000115
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-004"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        291.0,
+        160.0,
+        6.000000000000017
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-005"
+    },
+    {
+      "name": "Top tie",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        321.0,
+        160.0,
+        6.000000000000019
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-006"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        75.0,
+        160.0,
+        6.0000000000000036
+      ],
+      "rotation": [
+        90.0,
+        67.12633480937329,
+        -90.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-007"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        167.0,
+        160.0,
+        6.00000000000001
+      ],
+      "rotation": [
+        -90.0,
+        67.12633480937329,
+        90.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-008"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        259.0,
+        160.0,
+        6.000000000000015
+      ],
+      "rotation": [
+        90.0,
+        67.12633480937329,
+        -90.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-009"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        28.25,
+        96.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-010"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        28.25,
+        224.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-011"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        120.25,
+        96.0,
+        6.000000000000007
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-012"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        120.25,
+        224.0,
+        6.000000000000007
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-013"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        212.25,
+        96.0,
+        6.000000000000012
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-014"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        212.25,
+        224.0,
+        6.000000000000012
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-015"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        304.25,
+        96.0,
+        6.000000000000018
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-016"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        304.25,
+        224.0,
+        6.000000000000018
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-017"
+    }
+  ],
+  "updatedAt": "2026-09-28T10:12:13.739159+00:00"
+}

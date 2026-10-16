@@ -1,0 +1,127 @@
+{
+  "printer": "Bambu Lab H2S",
+  "build_volume_mm": [
+    340.0,
+    320.0,
+    340.0
+  ],
+  "material": "Bambu ABS-GF",
+  "default_nozzle_mm": 0.4,
+  "optional_recommended_nozzle_mm": 0.6,
+  "parts": {
+    "side-frame": {
+      "dimensions_mm": [
+        318.0,
+        208.0,
+        12.0
+      ],
+      "bounds_mm": [
+        [
+          11.0,
+          56.0,
+          0.0
+        ],
+        [
+          329.0,
+          264.0,
+          12.0
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1,
+      "solid_volume_cm3": 364.04,
+      "fits_h2s_with_8mm_brim": true,
+      "triangles": 452
+    },
+    "shelf-tray": {
+      "dimensions_mm": [
+        240.0,
+        166.0,
+        14.0
+      ],
+      "bounds_mm": [
+        [
+          50.0,
+          77.0,
+          0.0
+        ],
+        [
+          290.0,
+          243.0,
+          14.0
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1,
+      "solid_volume_cm3": 319.404,
+      "fits_h2s_with_8mm_brim": true,
+      "triangles": 1394
+    },
+    "locking-key": {
+      "dimensions_mm": [
+        10.0,
+        23.05,
+        8.0
+      ],
+      "bounds_mm": [
+        [
+          165.0,
+          148.475,
+          0.0
+        ],
+        [
+          175.0,
+          171.525,
+          8.0
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1,
+      "solid_volume_cm3": 0.882,
+      "fits_h2s_with_8mm_brim": true,
+      "triangles": 30
+    }
+  },
+  "required_counts": {
+    "side-frame": 2,
+    "shelf-tray": 4,
+    "locking-key": 16
+  },
+  "assembled_rack_dimensions_mm": [
+    240.8,
+    208.0,
+    318.0
+  ],
+  "rack_with_devices_height_mm": 350.5,
+  "device_dimensions_mm": [
+    150,
+    150,
+    50.5
+  ],
+  "nominal_device_mass_kg": 1.2,
+  "devices": 4,
+  "total_device_mass_kg": 4.8,
+  "shelf_top_heights_mm": [
+    24.0,
+    116.0,
+    208.0,
+    300.0
+  ],
+  "vertical_gap_to_next_tray_mm": 27.5,
+  "centered_device_to_side_frame_mm": 23.0,
+  "fit_clearance_total_mm": 0.5,
+  "component_intersections_mm3": [],
+  "nvidia_external_clearance_mm": {
+    "front": 100,
+    "sides": 20,
+    "rear": 400
+  },
+  "validation_limits": {
+    "physical_fit": "not yet tested",
+    "load_and_creep": "not yet tested",
+    "thermal_airflow": "not yet tested"
+  }
+}

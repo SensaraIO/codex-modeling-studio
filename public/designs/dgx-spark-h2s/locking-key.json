@@ -1,0 +1,82 @@
+{
+  "id": "dgx-spark-h2s-four",
+  "name": "H2S / locking-key / print orientation",
+  "unit": "mm",
+  "color": "#303e46",
+  "roughness": 0.82,
+  "metalness": 0.12,
+  "buildVolume": [
+    340.0,
+    320.0,
+    340.0
+  ],
+  "shapes": [
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        167.0,
+        161.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-000"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        170.0,
+        149.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-001"
+    }
+  ],
+  "updatedAt": "2026-09-28T10:12:13.775556+00:00"
+}

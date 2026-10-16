@@ -1,0 +1,379 @@
+{
+  "id": "dgx-spark-h2s-four",
+  "name": "H2S / joint fit coupon / 0.4, 0.5, 0.7 mm total clearance",
+  "unit": "mm",
+  "color": "#303e46",
+  "roughness": 0.82,
+  "metalness": 0.12,
+  "buildVolume": [
+    340.0,
+    320.0,
+    340.0
+  ],
+  "shapes": [
+    {
+      "name": "Socket coupon total allowance 0.4",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        108.0,
+        125.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 40,
+        "height": 32,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-000"
+    },
+    {
+      "name": "Mortise test opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        107.2,
+        125.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.4,
+        "height": 14.4,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-001"
+    },
+    {
+      "name": "Socket coupon total allowance 0.5",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        156.0,
+        125.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 40,
+        "height": 32,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-002"
+    },
+    {
+      "name": "Mortise test opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        155.25,
+        125.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-003"
+    },
+    {
+      "name": "Socket coupon total allowance 0.7",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        204.0,
+        125.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 40,
+        "height": 32,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-004"
+    },
+    {
+      "name": "Mortise test opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        203.35,
+        125.0,
+        6.000000000000001
+      ],
+      "rotation": [
+        -0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.7,
+        "height": 14.7,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-005"
+    },
+    {
+      "name": "Full-size test tongue",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        148.0,
+        190.0,
+        7.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 44,
+        "depth": 24,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-006"
+    },
+    {
+      "name": "Joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        140.6,
+        190.0,
+        7.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 40,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-007"
+    },
+    {
+      "name": "Actual key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        162.4,
+        190.0,
+        7.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-008"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        203.0,
+        187.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-009"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        206.0,
+        175.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-010"
+    }
+  ],
+  "updatedAt": "2026-09-28T10:12:13.961869+00:00"
+}

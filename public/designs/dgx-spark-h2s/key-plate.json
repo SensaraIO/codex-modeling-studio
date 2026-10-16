@@ -1,0 +1,1072 @@
+{
+  "id": "dgx-spark-h2s-four",
+  "name": "H2S / 16 rigid locking keys / print flat",
+  "unit": "mm",
+  "color": "#303e46",
+  "roughness": 0.82,
+  "metalness": 0.12,
+  "buildVolume": [
+    340.0,
+    320.0,
+    340.0
+  ],
+  "shapes": [
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        105.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-000"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        108.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-001"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        123.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-002"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        126.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-003"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        141.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-004"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        144.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-005"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        159.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-006"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        162.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-007"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        177.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-008"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        180.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-009"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        195.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-010"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        198.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-011"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        213.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-012"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        216.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-013"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        231.0,
+        140.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-014"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        234.0,
+        128.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-015"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        105.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-016"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        108.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-017"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        123.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-018"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        126.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-019"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        141.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-020"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        144.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-021"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        159.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-022"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        162.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-023"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        177.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-024"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        180.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-025"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        195.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-026"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        198.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-027"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        213.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-028"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        216.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-029"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        231.0,
+        180.47499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-030"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        234.0,
+        168.97499999962747,
+        4.000000000000001
+      ],
+      "rotation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-031"
+    }
+  ],
+  "updatedAt": "2026-09-28T10:12:13.950059+00:00"
+}

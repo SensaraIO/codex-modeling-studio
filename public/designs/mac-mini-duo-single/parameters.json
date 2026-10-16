@@ -1,0 +1,13 @@
+{
+  "device_width": 127,
+  "device_depth": 127,
+  "device_height": 50,
+  "tilt": 15,
+  "circular_clearance_diameter": 120,
+  "levels": [
+    40,
+    120
+  ],
+  "frame_width": 154,
+  "frame_depth": 188
+}

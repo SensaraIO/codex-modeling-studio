@@ -1,0 +1,4636 @@
+{
+  "id": "dgx-spark-h2s-four",
+  "name": "DGX Spark / four-bay H2S rack / exploded",
+  "unit": "mm",
+  "color": "#303e46",
+  "roughness": 0.82,
+  "metalness": 0.12,
+  "buildVolume": [
+    340.0,
+    320.0,
+    340.0
+  ],
+  "shapes": [
+    {
+      "name": "Full-depth foot",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        7.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 208.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-000"
+    },
+    {
+      "name": "Continuous upright",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        -64.0,
+        159.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 36,
+        "height": 318.0,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-001"
+    },
+    {
+      "name": "Continuous upright",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        64.0,
+        159.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 36,
+        "height": 318.0,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-002"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        96.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-003"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        188.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-004"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        280.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-005"
+    },
+    {
+      "name": "Top tie",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        310.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-006"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        64.0
+      ],
+      "rotation": [
+        22.87366519062671,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-007"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        156.0
+      ],
+      "rotation": [
+        -22.87366519062671,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-008"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -139.0,
+        0.0,
+        248.0
+      ],
+      "rotation": [
+        22.87366519062671,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-009"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        -64.0,
+        17.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-010"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        64.0,
+        17.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-011"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        -64.0,
+        109.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-012"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        64.0,
+        109.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-013"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        -64.0,
+        201.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-014"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        64.0,
+        201.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-015"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        -64.0,
+        293.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-016"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -139.0,
+        64.0,
+        293.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-017"
+    },
+    {
+      "name": "Full-depth foot",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        7.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 208.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-018"
+    },
+    {
+      "name": "Continuous upright",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        -64.0,
+        159.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 36,
+        "height": 318.0,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-019"
+    },
+    {
+      "name": "Continuous upright",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        64.0,
+        159.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 36,
+        "height": 318.0,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-020"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        96.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-021"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        188.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-022"
+    },
+    {
+      "name": "Shelf bearing rung",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        280.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-023"
+    },
+    {
+      "name": "Top tie",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        310.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 128,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-024"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        64.0
+      ],
+      "rotation": [
+        22.87366519062671,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-025"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        156.0
+      ],
+      "rotation": [
+        -22.87366519062671,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-026"
+    },
+    {
+      "name": "Diagonal side brace",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        139.0,
+        0.0,
+        248.0
+      ],
+      "rotation": [
+        22.87366519062671,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 12,
+        "depth": 138.92443989449805,
+        "height": 12,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-027"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        -64.0,
+        17.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-028"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        64.0,
+        17.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-029"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        -64.0,
+        109.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-030"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        64.0,
+        109.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-031"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        -64.0,
+        201.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-032"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        64.0,
+        201.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-033"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        -64.0,
+        293.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-034"
+    },
+    {
+      "name": "Through mortise; gravity bearing below",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        139.0,
+        64.0,
+        293.25
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 24.5,
+        "height": 14.5,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-035"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -64.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-036"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        64.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-037"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -90.6,
+        0.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-038"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        90.6,
+        0.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-039"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -42.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-040"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -28.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-041"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -14.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-042"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-043"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        14.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-044"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        28.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-045"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        42.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-046"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -48.0,
+        0.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-047"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-048"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        48.0,
+        0.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-049"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        -64.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-050"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        64.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-051"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        -64.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-052"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        64.0,
+        17.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-053"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        -64.0,
+        41.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-054"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        -64.0,
+        52.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-055"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        64.0,
+        41.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-056"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        64.0,
+        52.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-057"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        -64.0,
+        41.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-058"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        -64.0,
+        52.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-059"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        64.0,
+        41.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-060"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        64.0,
+        52.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-061"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -64.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-062"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        64.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-063"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -90.6,
+        0.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-064"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        90.6,
+        0.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-065"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -42.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-066"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -28.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-067"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -14.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-068"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-069"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        14.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-070"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        28.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-071"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        42.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-072"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -48.0,
+        0.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-073"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-074"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        48.0,
+        0.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-075"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        -64.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-076"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        64.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-077"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        -64.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-078"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        64.0,
+        109.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-079"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        -64.0,
+        133.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-080"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        -64.0,
+        144.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-081"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        64.0,
+        133.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-082"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        64.0,
+        144.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-083"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        -64.0,
+        133.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-084"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        -64.0,
+        144.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-085"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        64.0,
+        133.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-086"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        64.0,
+        144.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-087"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -64.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-088"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        64.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-089"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -90.6,
+        0.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-090"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        90.6,
+        0.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-091"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -42.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-092"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -28.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-093"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -14.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-094"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-095"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        14.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-096"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        28.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-097"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        42.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-098"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -48.0,
+        0.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-099"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-100"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        48.0,
+        0.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-101"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        -64.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-102"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        64.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-103"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        -64.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-104"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        64.0,
+        201.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-105"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        -64.0,
+        225.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-106"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        -64.0,
+        236.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-107"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        64.0,
+        225.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-108"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        64.0,
+        236.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-109"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        -64.0,
+        225.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-110"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        -64.0,
+        236.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-111"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        64.0,
+        225.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-112"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        64.0,
+        236.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-113"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -64.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-114"
+    },
+    {
+      "name": "Continuous 240 mm shelf beam",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        64.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 240,
+        "depth": 24.0,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-115"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -90.6,
+        0.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-116"
+    },
+    {
+      "name": "Side rail and joint shoulder",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        90.6,
+        0.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 14,
+        "depth": 166,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-117"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -42.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-118"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -28.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-119"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        -14.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-120"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-121"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        14.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-122"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        28.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-123"
+    },
+    {
+      "name": "Open deck cross rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        42.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 195.2,
+        "depth": 6,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-124"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -48.0,
+        0.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-125"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        0.0,
+        0.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-126"
+    },
+    {
+      "name": "Open deck longitudinal rib",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        48.0,
+        0.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 6,
+        "depth": 128,
+        "height": 14,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-127"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        -64.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-128"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        -112.4,
+        64.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-129"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        -64.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-130"
+    },
+    {
+      "name": "Printed locking-key opening",
+      "type": "box",
+      "role": "solid",
+      "operation": "cut",
+      "position": [
+        112.4,
+        64.0,
+        293.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4.4,
+        "depth": 8.4,
+        "height": 16,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-131"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        -64.0,
+        317.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-132"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        -64.0,
+        328.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-133"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -117.4,
+        64.0,
+        317.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-134"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        -120.4,
+        64.0,
+        328.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-135"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        -64.0,
+        317.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-136"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        -64.0,
+        328.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-137"
+    },
+    {
+      "name": "Key shank",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        117.4,
+        64.0,
+        317.0
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 4,
+        "depth": 8,
+        "height": 20.1,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-138"
+    },
+    {
+      "name": "Key finger tab",
+      "type": "box",
+      "role": "solid",
+      "operation": "add",
+      "position": [
+        120.4,
+        64.0,
+        328.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": {
+        "width": 10,
+        "depth": 8,
+        "height": 3,
+        "radius": 1,
+        "radiusTop": 1,
+        "radiusBottom": 1,
+        "tube": 1
+      },
+      "visible": true,
+      "locked": false,
+      "id": "h2s-139"
+    }
+  ],
+  "updatedAt": "2026-09-28T10:12:13.927804+00:00"
+}

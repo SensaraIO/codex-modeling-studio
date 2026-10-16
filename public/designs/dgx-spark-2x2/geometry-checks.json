@@ -1,0 +1,115 @@
+{
+  "side-frame": {
+    "dimensions_mm": [
+      150.0,
+      208.0,
+      12.0
+    ],
+    "bounds_mm": [
+      [
+        95.0,
+        56.0,
+        0.0
+      ],
+      [
+        245.0,
+        264.0,
+        12.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 179.211,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 1068
+  },
+  "shelf-tray": {
+    "dimensions_mm": [
+      240.0,
+      166.0,
+      14.0
+    ],
+    "bounds_mm": [
+      [
+        50.0,
+        77.0,
+        0.0
+      ],
+      [
+        290.0,
+        243.0,
+        14.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 319.404,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 1394
+  },
+  "locking-key": {
+    "dimensions_mm": [
+      10.0,
+      23.05,
+      8.0
+    ],
+    "bounds_mm": [
+      [
+        165.0,
+        148.475,
+        0.0
+      ],
+      [
+        175.0,
+        171.525,
+        8.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 0.882,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 24
+  },
+  "joining-plate": {
+    "dimensions_mm": [
+      68.0,
+      18.0,
+      6.0
+    ],
+    "bounds_mm": [
+      [
+        136.0,
+        151.0,
+        0.0
+      ],
+      [
+        204.0,
+        169.0,
+        6.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 7.146,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 276
+  },
+  "assembly_dimensions_mm": [
+    492.8,
+    208.0,
+    166.5
+  ],
+  "intersections": [],
+  "counts": {
+    "side-frame": 4,
+    "shelf-tray": 4,
+    "locking-key": 16,
+    "joining-plate": 2
+  },
+  "physical_testing": "pending"
+}

@@ -1,0 +1,332 @@
+{
+  "cradle": {
+    "dimensions_mm": [
+      180.0,
+      193.5,
+      46.4
+    ],
+    "bounds_mm": [
+      [
+        80.0,
+        63.25,
+        -0.0
+      ],
+      [
+        260.0,
+        256.75,
+        46.4
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 60.072,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 402
+  },
+  "bridge": {
+    "dimensions_mm": [
+      70.0,
+      14.0,
+      32.0
+    ],
+    "bounds_mm": [
+      [
+        135.0,
+        153.0,
+        -0.0
+      ],
+      [
+        205.0,
+        167.0,
+        32.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 10.144,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 44
+  },
+  "frame": {
+    "dimensions_mm": [
+      304.0,
+      290.0,
+      12.0
+    ],
+    "bounds_mm": [
+      [
+        18.0,
+        6.0,
+        -0.0
+      ],
+      [
+        322.0,
+        296.0,
+        12.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 498.349,
+    "fits_h2s_with_8mm_brim": false,
+    "triangles": 440,
+    "probe_clearance_mm": 1.4,
+    "brim_width_mm": 4.5,
+    "brim_gap_mm": 0.1,
+    "brim_envelope_mm": [
+      [
+        13.4,
+        1.4000000000000004
+      ],
+      [
+        326.6,
+        300.6
+      ]
+    ],
+    "fits_h2s_probe_with_5mm_brim": true
+  },
+  "frame-inner-clearance": {
+    "dimensions_mm": [
+      304.0,
+      290.0,
+      12.0
+    ],
+    "bounds_mm": [
+      [
+        18.0,
+        6.0,
+        -0.0
+      ],
+      [
+        322.0,
+        296.0,
+        12.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 489.133,
+    "fits_h2s_with_8mm_brim": false,
+    "triangles": 472,
+    "probe_clearance_mm": 1.4,
+    "brim_width_mm": 4.5,
+    "brim_gap_mm": 0.1,
+    "brim_envelope_mm": [
+      [
+        13.4,
+        1.4000000000000004
+      ],
+      [
+        326.6,
+        300.6
+      ]
+    ],
+    "fits_h2s_probe_with_5mm_brim": true
+  },
+  "frame-inner-routed": {
+    "dimensions_mm": [
+      330.0,
+      290.0,
+      12.0
+    ],
+    "bounds_mm": [
+      [
+        5.0,
+        6.0,
+        -0.0
+      ],
+      [
+        335.0,
+        296.0,
+        12.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 526.987,
+    "fits_h2s_with_8mm_brim": false,
+    "triangles": 644,
+    "probe_clearance_mm": 1.4,
+    "brim_width_mm": 4.5,
+    "brim_gap_mm": 0.1,
+    "brim_envelope_mm": [
+      [
+        0.40000000000000036,
+        1.4000000000000004
+      ],
+      [
+        339.6,
+        300.6
+      ]
+    ],
+    "fits_h2s_probe_with_5mm_brim": true
+  },
+  "spark-tray": {
+    "dimensions_mm": [
+      256.0,
+      244.0,
+      14.0
+    ],
+    "bounds_mm": [
+      [
+        42.0,
+        38.0,
+        0.0
+      ],
+      [
+        298.0,
+        282.0,
+        14.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 473.124,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 1624
+  },
+  "switch-tray": {
+    "dimensions_mm": [
+      256.0,
+      244.0,
+      32.0
+    ],
+    "bounds_mm": [
+      [
+        42.0,
+        38.0,
+        0.0
+      ],
+      [
+        298.0,
+        282.0,
+        32.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 609.924,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 1680
+  },
+  "key": {
+    "dimensions_mm": [
+      4.6,
+      23.0,
+      10.0
+    ],
+    "bounds_mm": [
+      [
+        167.7,
+        148.5,
+        0.0
+      ],
+      [
+        172.3,
+        171.5,
+        10.0
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_solids": 1,
+    "solid_volume_cm3": 0.778,
+    "fits_h2s_with_8mm_brim": true,
+    "triangles": 28
+  },
+  "assembly": {
+    "size_mm": [
+      515.4,
+      304,
+      302.5
+    ],
+    "frame_height_mm": 290,
+    "switch_envelope_mm": [
+      443,
+      268,
+      44
+    ],
+    "switch_bottom_mm": 42,
+    "spark_shelf_tops_mm": [
+      150,
+      252
+    ],
+    "cable_bay_clear_height_mm": 50,
+    "counts": {
+      "frame": 4,
+      "frame-inner-routed": 2,
+      "spark-tray": 4,
+      "switch-tray": 2,
+      "key": 24,
+      "bridge": 2,
+      "cradle": 2
+    },
+    "switch_ear_clearance": {
+      "z_min_mm": 40,
+      "z_max_mm": 88,
+      "route_offset_mm": 13,
+      "post_section_mm": [
+        12,
+        16
+      ],
+      "applied_to": "inner frames only"
+    },
+    "intersections": [],
+    "slide_test_offsets_mm": [
+      -15,
+      -10,
+      0,
+      10,
+      15
+    ],
+    "slide_test_collisions": {
+      "-15": [],
+      "-10": [],
+      "0": [],
+      "10": [],
+      "15": []
+    },
+    "physical_testing": "not performed"
+  },
+  "routed-inner-frames": {
+    "variant": "Switch remains in rack; inner posts route outward around ears",
+    "intersections": [],
+    "slide_test_offsets_mm": [
+      -15,
+      -10,
+      0,
+      10,
+      15
+    ],
+    "slide_test_collisions": {
+      "-15": [],
+      "-10": [],
+      "0": [],
+      "10": [],
+      "15": []
+    },
+    "physical_testing": "not performed"
+  },
+  "separate-switch-stand": {
+    "variant": "Original Spark rack plus independent low switch stand",
+    "stand_dimensions_mm": [
+      460,
+      210,
+      14
+    ],
+    "switch_position_mm": [
+      0,
+      360,
+      36
+    ],
+    "intersections": [],
+    "physical_testing": "not performed"
+  }
+}

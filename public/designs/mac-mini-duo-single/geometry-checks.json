@@ -1,0 +1,38 @@
+{
+  "watertight": true,
+  "connected_bodies": 1,
+  "assembled_dimensions_mm": [
+    154.0,
+    188.0,
+    148.0
+  ],
+  "print_dimensions_mm": [
+    154.0,
+    148.0,
+    188.0
+  ],
+  "print_bounds_mm": [
+    [
+      51.0,
+      54.0,
+      0.0
+    ],
+    [
+      205.0,
+      202.0,
+      188.0
+    ]
+  ],
+  "solid_volume_cm3": 425.56786840401224,
+  "device_envelope_intersection_mm3": [
+    2.596811654598241e-13,
+    -2.438937940496544e-12
+  ],
+  "circular_keepout_intersection_mm3": [
+    0.0,
+    0.0
+  ],
+  "circular_clearance_diameter_mm": 120,
+  "underside_fit": "clearance only; circular base dimensions not measured",
+  "physical_validation": false
+}
