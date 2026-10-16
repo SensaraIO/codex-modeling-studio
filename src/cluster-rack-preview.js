@@ -53,6 +53,7 @@ const notes={
  wiring:['Cable cradles above the MikroTik','Blue/orange: Spark breakout pairs. Green: four Ethernet leads. Black: six power leads. Cable bends and unmeasured ports are illustrative.'],
  assembly:['Raised shelves + cable bay','All-printed structure and drop-in joining keys. Silver boxes are device envelopes.'],
  'routed-inner-frames':['Routed inner frames · 13 mm route','Two inner frames keep full-height 12 × 16 mm posts, shifted 13 mm outward around the switch ears. The symmetric channel supports ±15 mm forward/back slide checks.'],
+ 'routed-slide-positions':['Routed inner frame · slide clearance','One routed inner frame with transparent Spark and CRS812 envelopes at −15 mm and +15 mm along the slide channel.'],
  'routed-inner-compare':['Previous vs newest routed frame','Side by side: previous 9 mm route on the left; newest 13 mm route on the right. The newest version adds 4 mm of nominal clearance per side.'],
  'separate-switch-stand':['Separate low switch stand','The original Spark rack stays intact while the CRS812 sits on an independent low stand beside it.'],
  'bare-rack':['Rack structure','Four side frames, four Spark trays, two switch supports and printed joining bridges.'],
@@ -87,11 +88,22 @@ function frame(view='isometric'){
   camera=next.camera;controls.object=camera;controls.target.copy(next.center);controls.update();
   document.querySelectorAll('[data-camera]').forEach(b=>b.classList.toggle('active',b.dataset.camera===view));
 }
+function boxPart(name,[xmin,xmax,ymin,ymax,zmin,zmax],reference=true){
+  const v=[[xmin,ymin,zmin],[xmax,ymin,zmin],[xmax,ymax,zmin],[xmin,ymax,zmin],[xmin,ymin,zmax],[xmax,ymin,zmax],[xmax,ymax,zmax],[xmin,ymax,zmax]];
+  return {name,reference,vertices:v,faces:[[0,1,2,3],[4,7,6,5],[0,4,5,1],[1,5,6,2],[2,6,7,3],[4,0,3,7]]};
+}
 async function setModel(name){
   if(!notes[name])throw new Error('Unknown model variant');
   const token=++request;
-  const sourceName=name==='routed-inner-compare'?'routed-inner-compare':name.startsWith('step-')?'assembly':name;
+  const sourceName=name==='routed-inner-compare'?'routed-inner-compare':name==='routed-slide-positions'?'routed-inner-frames':name.startsWith('step-')?'assembly':name;
   const data=await fetch(`/designs/spark-crs812-printed/${sourceName}.mesh.json`).then(r=>{if(!r.ok)throw new Error('Model failed to load');return r.json();});
+  if(name==='routed-slide-positions'){
+    data.objects=data.objects.filter(o=>o.name.includes('frame-frame-inner-routed'));
+    for(const offset of [-15,15]){
+      data.objects.push(boxPart(`CRS812 slide ${offset > 0 ? '+' : ''}${offset} mm`,[-221.5,221.5,-134+offset,134+offset,42,86]));
+      data.objects.push(boxPart(`Spark slide ${offset > 0 ? '+' : ''}${offset} mm`,[-75,75,-75+offset,75+offset,150,200.5]));
+    }
+  }
   if(name.startsWith('step-'))data.objects=data.objects.filter(assemblySteps[name]);
   if(token!==request)return;
   const next=new THREE.Group();
@@ -99,7 +111,8 @@ async function setModel(name){
     const geometry=new THREE.BufferGeometry();
     geometry.setAttribute('position',new THREE.Float32BufferAttribute(part.vertices.flat(),3));
     geometry.setIndex(part.faces.flat());geometry.computeVertexNormals();
-    const mesh=new THREE.Mesh(geometry,part.name.startsWith('previous routed')?new THREE.MeshStandardMaterial({color:0x8f6654,roughness:.85,flatShading:true}):part.name.startsWith('new routed')?new THREE.MeshStandardMaterial({color:0x365f54,roughness:.85,flatShading:true}):part.name.includes('cradle')?cradleMaterial:part.name.startsWith('ethernet')?ethernetMaterial:part.name.startsWith('power-cord')?powerCordMaterial:part.name.startsWith('cable-12')?blueCableMaterial:part.name.startsWith('cable-34')?orangeCableMaterial:part.reference?deviceMaterial:part.name.startsWith('key')||part.name.startsWith('locking')?keyMaterial:part.name.startsWith('frame')?frameMaterial:material);
+    const slideMaterial=part.name.startsWith('CRS812 slide')?new THREE.MeshStandardMaterial({color:0x2f403c,transparent:true,opacity:.22,roughness:.8}):part.name.startsWith('Spark slide')?new THREE.MeshStandardMaterial({color:0xb4b8ad,transparent:true,opacity:.28,roughness:.65}):null;
+    const mesh=new THREE.Mesh(geometry,slideMaterial|| (part.name.startsWith('previous routed')?new THREE.MeshStandardMaterial({color:0x8f6654,roughness:.85,flatShading:true}):part.name.startsWith('new routed')?new THREE.MeshStandardMaterial({color:0x365f54,roughness:.85,flatShading:true}):part.name.includes('cradle')?cradleMaterial:part.name.startsWith('ethernet')?ethernetMaterial:part.name.startsWith('power-cord')?powerCordMaterial:part.name.startsWith('cable-12')?blueCableMaterial:part.name.startsWith('cable-34')?orangeCableMaterial:part.reference?deviceMaterial:part.name.startsWith('key')||part.name.startsWith('locking')?keyMaterial:part.name.startsWith('frame')?frameMaterial:material));
     mesh.name=part.name;mesh.castShadow=true;mesh.receiveShadow=true;next.add(mesh);
     const edges=new THREE.LineSegments(new THREE.EdgesGeometry(geometry,25),new THREE.LineBasicMaterial({color:part.reference?0x626a61:0x172f29,transparent:true,opacity:part.reference?.3:.22}));
     next.add(edges);
@@ -112,7 +125,7 @@ async function setModel(name){
   }
   scene.remove(group);group.traverse(o=>{o.geometry?.dispose();if(o.isLineSegments)o.material.dispose();});
   group=next;scene.add(group);currentName=name;currentData=data;
-  bed.visible=grid.visible=!['assembly','routed-inner-frames','separate-switch-stand','bare-rack','exploded','wiring','cable-bay'].includes(name);
+  bed.visible=grid.visible=!['assembly','routed-inner-frames','routed-slide-positions','separate-switch-stand','bare-rack','exploded','wiring','cable-bay'].includes(name);
   document.querySelector('#view-title').textContent=notes[name][0];
   document.querySelector('#view-note').textContent=notes[name][1];
   document.querySelectorAll('[data-model]').forEach(b=>b.classList.toggle('active',b.dataset.model===name));
